@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>What you see is not what you see</title>
+	<link rel="stylesheet" type="text/css" href="css/style2.css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<audio id="myAudio"><source src="audio/lowPower.mp3" type="audio/mpeg">
+	</audio>
+	<!-- scene2 content -->
+	<div class="scene" id="scene2">
+
+		<div class="scene2" id="openAlert">
+			<img onclick="closeAlert0()" class="scene2" id="alert0" src="img/alert0.png">
+		</div>
+
+		<div class="scene2" id="topbar">
+			<div class="scene2" id="bat">
+				<img class="scene2 scene2_bat" id="bat1" src="img/bat1.png">
+				<img class="scene2 scene2_bat" id="bat2" src="img/bat2.png">
+				<img class="scene2 scene2_bat" id="bat3" src="img/bat3.png">
+			</div>
+		</div>
+
+		<div class="scene2" id="img">
+
+			<div class="scene2" id="noChange">
+				<img class="scene2 scene2_img" id="img1" onclick="btn1()" src="img/01.png">
+				<img class="scene2 scene2_img" id="img2" onclick="btn2()" src="img/02.png">
+				<img class="scene2 scene2_img" id="img3" onclick="btn3()" src="img/03.png">
+				<img class="scene2 scene2_img" id="img4" onclick="btn4()" src="img/04.png">
+				<img class="scene2 scene2_img" id="img5" onclick="btn5()" src="img/05.png">
+				<img class="scene2 scene2_img" id="img6" onclick="btn6()" src="img/06.png">
+				<img class="scene2 scene2_img" id="img7" onclick="btn7()" src="img/07.png">
+			</div>
+
+			<div class="scene2" id="repeatAlert">
+				<img onclick="closeAlert1()" class="scene2" id="alert1" src="img/alert1.png">
+			</div>
+		</div>
+
+		<div class="scene2" id="vid">
+			<video  class="scene2 scene2_vid" id="vid1" onended="getHome()"><source src="videos/0401.mp4" type="video/mp4">
+			</video>
+
+			<video class="scene2 scene2_vid" id="vid2" onended="getHome()"><source src="videos/0402.mp4" type="video/mp4">
+			</video>
+
+			<video class="scene2 scene2_vid" id="vid3" onended="getHome()"><source src="videos/0403.mp4" type="video/mp4">
+			</video>
+
+			<video class="scene2 scene2_vid" id="vid4" onended="getHome()"><source src="videos/0404.mp4" type="video/mp4">
+			</video>
+
+			<video class="scene2 scene2_vid" id="vid5" onended="getHome()"><source src="videos/0405.mp4" type="video/mp4">
+			</video>
+
+			<video class="scene2 scene2_vid" id="vid6" onended="getHome()"><source src="videos/0406.mp4" type="video/mp4">
+			</video>
+
+			<video class="scene2 scene2_vid" id="vid7" onended="getHome()"><source src="videos/0407.mp4" type="video/mp4">
+			</video>
+		</div>	
+	</div>
+
+</body>
+<script type="text/javascript" src="js/script2.js"></script>
+</html>

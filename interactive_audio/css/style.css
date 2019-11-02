@@ -1,0 +1,297 @@
+html{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+p{
+  color: white;
+  font-size: 400%;
+  font-family: "trattatello";
+  position: absolute;
+  top: 30%;
+  left: 30%;
+
+}
+
+a{
+  color: white;
+  font-size: 200%;
+  font-family: "trattatello";
+  position: absolute;
+  left: 5%;
+  bottom: 0;
+  margin: 0;
+}
+
+h3{
+  color: black;
+  font-size: 400%;
+  font-family: "trattatello";
+  position: absolute;
+  top: 30%;
+  left: 6%;
+}
+
+button{
+  font-size: 200%;
+  font-family: "trattatello";
+  background-color: transparent;
+  color: white;
+  border:0;
+}
+
+.footbutton{
+  position: absolute;
+  bottom: 0;
+  height: 15%;
+  width: 100%;
+}
+
+.picture{
+  width: 100%;
+  height: 90%;
+  position: fixed;
+}
+
+.button-next{
+  position: absolute;
+  right: 5%;
+  bottom: 0%;
+}
+
+.scene1{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: block;
+  background-color: black;
+}
+
+#candle-p{
+  margin-left: 5%;
+  width: 90%;
+  height: 100%;
+  opacity: 1;
+  transition: opacity 3s;
+
+}
+
+#blow{
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transition-delay: 2s;
+}
+
+.scene2{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: none;
+  background-color: black;
+}
+
+.scene3{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: none;
+  background-color: black;
+}
+
+#cat1-p{
+  height: 37%;
+  width: 21%;
+  position: absolute;
+  bottom: 50%;
+  right: 20%;
+  opacity: 0;
+}
+
+#doll1-p{
+  height: 40%;
+  width: 19%;
+  position: absolute;
+  bottom: 5%;
+  left: 25%;
+  opacity: 0;
+}
+
+#swing1-p{
+  height: 40%;
+  width: 40%;
+  position: absolute;
+  bottom: 3%;
+  right: 10%;
+  opacity: 0;
+}
+
+#waterdrops1-p{
+  height: 55%;
+  width: 35%;
+  position: absolute;
+  bottom: 44%;
+  left: 15%;
+  opacity: 0;
+}
+
+.scene4{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: none;
+  background-color: white;
+}
+
+#scene4-p{
+  background-color: white;
+  height: 95%;
+  width: 95%;
+  position: absolute;
+  top: 2%;
+  left: 2%;
+}
+
+#scene4-b{
+  color: black;
+}
+
+#light{
+  color: black;
+  font-size: 400%;
+  font-family: "trattatello";
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+
+.scene5{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: none;
+  background-color: white;
+}
+
+#scene5-b{
+  color: black;
+}
+
+#scene5-t{
+  color: black;
+}
+
+#scene5-p{
+  background-color: white;
+  height: 95%;
+  width: 95%;
+  position: absolute;
+  top: 2%;
+  left: 2%;
+}
+
+#swing2-p{
+  height: 40%;
+  width: 30%;
+  position: absolute;
+  bottom: 3%;
+  right: 10%;
+  opacity: 0;
+}
+
+#waterdrops2-p{
+  height: 45%;
+  width: 20%;
+  position: absolute;
+  bottom: 47%;
+  left: 16%;
+  opacity: 0;
+}
+
+#cat2-p{
+  height: 37%;
+  width: 21%;
+  position: absolute;
+  bottom: 50%;
+  right: 15%;
+  opacity: 0;
+}
+
+#doll2-p{
+  height: 40%;
+  width: 19%;
+  position: absolute;
+  bottom: 5%;
+  left: 20%;
+  opacity: 0;
+}
+
+.scene6{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: none;
+  background-color: white;
+}
+
+#scene6-p{
+  background-color: white;
+  height: 95%;
+  width: 95%;
+  position: absolute;
+  top: 2%;
+  left: 2%;
+}
+
+.shake:hover {
+  animation: shake 1.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.shake1:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake1 {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}

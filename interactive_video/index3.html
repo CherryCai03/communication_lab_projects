@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>What you see is not what you see</title>
+	<link rel="stylesheet" type="text/css" href="css/style3.css">
+</head>
+<body>
+	<div class="scene" id="scene3" onload="atScene3()">
+		<div >
+			<img id="background" src="img/background3.png">
+		</div>
+
+		<div id="commonPart">
+			<img class="choice" id="choice" src="img/choice0.png">
+			<img class="choice" id="divorceBtn" type="button" onclick="goodEnd()" src="img/choice1.png">
+			<img class="choice" id="hugBtn" type="button" onclick="badEnd()" id="choice2" src="img/choice2.png">
+
+		</div>
+
+		<div id="endings">
+			<video class="scene3_vid" onended="wifeHug()"><source src="videos/hug.mp4" type="video/mp4" > 
+			</video>
+			<video class="scene3_vid" onended="wifeDivorce()"><source src="videos/leave.mp4" type="video/mp4" >
+			</video>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="js/script3.js"></script>
+</html>

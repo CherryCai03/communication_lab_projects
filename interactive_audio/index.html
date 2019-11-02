@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fears...</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body onload="onload()">
+
+	<div class="picture">
+
+		<div class="scene1" id="scene1-p">
+			<img id="candle-p" src="images/candle.gif" class="shake">
+			<audio autoplay="true" id="candle-a" >
+ 				<source src="audio/candle.mp3" type="audio/mpeg">
+			</audio>
+		</div>
+
+		<div class="scene2" id="scene2-p">
+			<center><p>When light turns down...
+				<br>
+					Night Falls.....
+			</p></center>
+		</div>
+
+		<div class="scene3" id="scene3-p">
+			<audio id="cat1-a" onmouseover="cat1()" onmouseout="cat1dis()" >
+				<source src="audio/cat1.mp3" type="audio/mpeg">
+			</audio>
+			<img src="images/cat1.png" id="cat1-p" class="shake1"  onmouseover="cat1()" onmouseout="cat1dis()" >
+
+
+			<audio id="swing1-a" onmouseover="swing1()" onmouseout="swing1dis()" >
+				<source src="audio/swing1.mp3" type="audio/mpeg">
+			</audio>
+			<img src="images/swing1.png" id="swing1-p" class="shake1" onmouseover="swing1()" onmouseout="swing1dis()" >
+
+
+			<audio id="waterdrops1-a" onmouseover="waterdrops1()" onmouseout="waterdrops1dis()">
+				<source src="audio/waterdrops1.mp3" type="audio/mpeg">
+			</audio>
+			<img src="images/waterdrops1.png" id="waterdrops1-p" class="shake1" onmouseover="waterdrops1()" onmouseout="waterdrops1dis()" >
+
+			<audio id="doll1-a" onmouseover="doll1()" onmouseout="doll1dis()" >
+				<source src="audio/doll1.mp3" type="audio/mpeg">
+			</audio>
+			<img src="images/doll1.png" id="doll1-p" class="shake1" onmouseover="doll1()" onmouseout="doll1dis()" >
+		</div>
+
+		<div class="scene4" id="scene4-p">
+			<center><a id="light">When light turns up...
+				<br>
+					Day begins.....
+			</a></center>
+		</div>
+
+		<div class="scene5" id="scene5-p">
+			<audio id="swing2-a" onmouseover="swing2()" onmouseout="swing2dis()" >
+				<source src="audio/swing2.mp3" type="audio/mpeg">
+			</audio>
+			<img src="images/swing2.png" id="swing2-p" class="shake" onmouseover="swing2()" onmouseout="swing2dis()" onclick="play1()">
+
+
+			<audio id="waterdrops2-a" onmouseover="waterdrops2()" onmouseout="waterdrops2dis()">
+				<source src="audio/waterdrops2.mp3" type="audio/mpeg">
+			</audio>
+			<img src="images/waterdrops2.png" id="waterdrops2-p" class="shake" onmouseover="waterdrops2()" onmouseout="waterdrops2dis()" onclick="play2()">
+
+			<audio id="doll2-a" onmouseover="doll2()" onmouseout="doll2dis()" >
+				<source src="audio/doll2.mp3" type="audio/mpeg">
+			</audio>
+			<img src="images/doll2.png" id="doll2-p" class="shake" onmouseover="doll2()" onmouseout="doll2dis()" onclick="play3()">
+
+			<audio id="cat2-a" onmouseover="cat2()" onmouseout="cat2dis()" >
+				<source src="audio/cat2.mp3" type="audio/mpeg">
+			</audio>
+			<img src="images/cat2.png" id="cat2-p" class="shake" onmouseover="cat2()" onmouseout="cat2dis()" onclick="play4()" >
+		</div>
+
+		<div class="scene6" id="scene6-p">
+			<h3><center>Special thanks to Moon, Jack, Jiwon ,and Quinn!</center></h3>
+		</div>
+
+	</div>
+
+	<div class="footbutton">
+
+		<div class="scene1" id="scene1-f">
+			<center><a>Blow the candle using your microphone!</a></center>
+		</div>
+
+		<div class="scene2" id="scene2-f">
+			<button class="button-next" onclick="button2() ">IN TO THE DARK > </button>
+		</div>
+
+		<div class="scene3" id="scene3-f">
+			<button class="button-next" onclick="button3() ">NEXT</button>
+			<center><a>Who's there? Move your mouse</a></center>
+		</div>
+
+		<div class="scene4" id="scene4-f">
+			<button class="button-next" onclick="button4()" id="scene4-b">IN TO THE LIGHT > </button>
+		</div>
+
+
+		<div class="scene5" id="scene5-f">
+			<center><a id="scene4-b">Here they are! Move your mouse and click the image! </a></center>
+			<button class="button-next" onclick="button5()" id="scene4-b">End</button>
+		</div>
+	
+	</div>
+
+</body>
+</html>

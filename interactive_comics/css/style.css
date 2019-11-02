@@ -1,0 +1,309 @@
+html{
+	width: 100%;
+	height: 100%;
+}
+body{
+	width: 100%;
+	height: 100%;
+}
+
+button {
+  outline: none;
+  background-color: lightgrey;
+  border: none;
+  border-radius:5px;
+  box-shadow: 0 10px #999;
+  color: rgb(68,5,126);
+  font-size: 200%; 
+}
+
+button:hover {background-color: lightgrey}
+
+button:active {
+  background-color: grey;
+  box-shadow: 0 10px #666;
+  transform: translateY(4px);
+}
+
+.NYCIMG:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+.SHIMG:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+.ADIMG:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+p{
+	font-size: 30px;
+	color: white;
+	margin-top: 15%;
+}
+
+h1{
+	color: white;
+	margin-left: 30%;
+}
+
+h2{
+	color: white;
+    margin-right: 10%;
+    position: absolute;
+    left: 40%;
+    top: 23%;
+}
+
+h3{
+	color: white;
+	margin-right;
+	position : absolute;
+    left: 10%;
+    margin-right: 11%;
+    font-size: 200%;
+}
+.title{
+	width: 100%;
+	height: 10%;
+	font-size: 200%;
+	position: fixed;
+	top: 0;
+	z-index: 10;
+	color: rgb(68,5,126);
+}
+
+.screen {
+	width: 1000px;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	position: fixed;
+	background-color: rgb(68,5,126);
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.scene1{
+	display: block;
+}
+
+.scene2{
+	display: none;
+	height: 800%;
+
+}
+
+#train{
+	width: 300%;
+	height: 10%;
+}
+
+#NYC{
+	position: relative;
+	left: 50%; 
+}
+
+#SH{
+	position: relative;
+	left: 90%;
+}
+
+#AD{
+	position: relative;
+	left: 200%;
+	top: -1%;
+}
+
+#NYC-B{
+	position: absolute;
+	left: 5%;
+	margin-top: 5%;
+}
+
+#NYC-C{
+	position: absolute;
+	left: 44%;
+	margin-top: 5%;
+}
+
+#NYC-A{
+	position: absolute;
+	left: 65%;
+	margin-top: 5%;
+}
+
+#SH-B{
+	position: absolute;
+	left: 10%;
+	margin-top: 5%;
+}
+
+#SH-J{
+	position: absolute;
+	left: 45%;
+	margin-top: 5%;
+}
+
+#SH-C{
+	position: absolute;
+	left: 75%;
+	margin-top: 5%;
+}
+
+#AD-B{
+	position: absolute;
+	left: 2%;
+	margin-top: 5%;
+}
+
+#AD-D{
+	position: absolute;
+	left: 46%;
+	margin-top: 5%;
+}
+
+#AD-C{
+	position: absolute;
+	left: 75%;
+	margin-top: 5%;
+}
+
+.scene3{
+	display: none;
+}
+
+.scene4{
+	display: none;
+}
+
+.scene5{
+	display: none;
+}
+
+.scene6{
+	display: none;
+}
+
+.scene7{
+	display: none;
+}
+
+.scene8{
+	display: none;
+}
+
+.scene9{
+	display: none;
+}
+
+.scene10{
+	display: none;
+}
+
+.scene11{
+	display: none;
+}
+
+.scene12{
+	display: none;
+}
+
+.scene13{
+	display: none;
+}
+
+.scene14{
+	display: none;
+}
+
+.scene15{
+	display: none;
+}
+
+#scene2-s{
+	overflow-x: auto;
+	height: 800%;
+}
+
+.NYCIMG{
+	float: left;
+    width: 25%;
+    height: 30%;
+    margin-left: 7%;
+    margin-top: 15%;
+}
+
+.SHIMG{
+	float: left;
+    width: 25%;
+    height: 30%;
+    margin-left: 7%;
+    margin-top: 15%;
+}
+
+.ADIMG{
+	float: left;
+    width: 25%;
+    height: 30%;
+    margin-left: 7%;
+    margin-top: 15%;
+}
+
+.contorl{
+	width: 100%;
+	height: 25%;
+	position: fixed;
+	bottom: 0;
+}
+
+.BACK{
+	left: 50%;
+    z-index: 100;
+    position: absolute;
+}
+
+.button{
+	z-index: 100;
+}
+
+.footimg{
+	width: 80%;
+	height: 30%;
+	position: fixed;
+	bottom: 0;
+	z-index: -100;
+}
+
+.footpic{
+	width: 30%;
+	position: fixed;
+	left: 0%;
+	bottom: 0;
+	z-index: -100;
+}
+
+#end{
+	position: absolute;
+	right: 5%;
+}
